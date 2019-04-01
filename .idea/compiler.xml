@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="huoni-commons" />
+        <module name="huoni-upload" />
+        <module name="huoni-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="huoni-commons" target="1.5" />
+      <module name="huoni-parent" target="1.5" />
+      <module name="huoni-upload" target="1.5" />
+      <module name="huoni-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="huoni-web:war">
+    <output-path>$PROJECT_DIR$/huoni-web/target</output-path>
+    <root id="archive" name="huoni-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="huoni-web:war exploded" />
+    </root>
+  </artifact>
+</component>
