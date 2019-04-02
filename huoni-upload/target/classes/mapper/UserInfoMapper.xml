@@ -84,7 +84,7 @@
   </select>
   <!--查詢所有用户-->
   <select id="selectAll" resultMap="BaseResultMap" >
-    select *   from user_info
+    select <include refid="Base_Column_List" />   from user_info
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
