@@ -7,6 +7,8 @@
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
 	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
 
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
     <!--扫描service-->
     <context:component-scan base-package="com.huonilaifu">
         <context:exclude-filter type="annotation"
@@ -36,20 +38,18 @@
     </bean>
     <!--配置sqlSessionFactory-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="dataSource" ref="dataSource"></property>
         <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
-        <property name="typeAliasesPackage" value="com.huonilaifu.*.model"/>
     </bean>
     <!--配置mapper接口扫描器mapperScannerConfigurer01-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
-        <property name="basePackage" value="com.huonilaifu.*.dao"></property>
+        <property name="basePackage" value="com.huonilaifu.upload.dao"></property>
     </bean>
-    <!--&lt;!&ndash;配置SqlSessionTemplate&ndash;&gt;-->
-    <!--<bean id="sqlSession" name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">-->
-    <!--<constructor-arg index="0" ref="sqlSessionFactory"/>-->
-    <!--</bean>-->
+    <!--配置SqlSessionTemplate-->
+    <bean id="sqlSession" name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+    <constructor-arg index="0" ref="sqlSessionFactory"/>
+    </bean>
     <!--配置事务管理器-->
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>

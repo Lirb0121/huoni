@@ -3,7 +3,6 @@ package com.huonilaifu.upload.service.impl;
 import com.huonilaifu.upload.dao.UserInfoMapper;
 import com.huonilaifu.upload.model.UserInfo;
 import com.huonilaifu.upload.service.UserService;
-import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
