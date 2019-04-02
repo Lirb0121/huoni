@@ -2,7 +2,9 @@ package com.huonilaifu.upload.dao;
 
 import com.huonilaifu.upload.model.UserInfo;
 import com.huonilaifu.upload.model.UserInfoExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

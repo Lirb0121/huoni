@@ -7,8 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae51e565-593e-4ce2-9a97-495b8654421d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/BaseService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/huoni-web/src/main/resources/mybatis-config.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/huoni_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/huoni_web_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-commons/huoni-commons.iml" afterPath="$PROJECT_DIR$/huoni-commons/huoni-commons.iml" />
+      <change beforePath="$PROJECT_DIR$/huoni-commons/pom.xml" afterPath="$PROJECT_DIR$/huoni-commons/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-upload/huoni-upload.iml" afterPath="$PROJECT_DIR$/huoni-upload/huoni-upload.iml" />
+      <change beforePath="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java" afterPath="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/huoni-upload/src/main/resources/mapper/UserInfoMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/huoni-upload/target/classes/com/huonilaifu/upload/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/huoni-upload/target/classes/com/huonilaifu/upload/service/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/huoni-web.iml" afterPath="$PROJECT_DIR$/huoni-web/huoni-web.iml" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/pom.xml" afterPath="$PROJECT_DIR$/huoni-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java" afterPath="$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml" afterPath="$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/target/classes/com/huonilaifu/web/upload/UserController.class" afterPath="$PROJECT_DIR$/huoni-web/target/classes/com/huonilaifu/web/upload/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/target/classes/spring/upload-beans.xml" afterPath="$PROJECT_DIR$/huoni-web/target/classes/spring/upload-beans.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/classes/com/huonilaifu/web/upload/UserController.class" afterPath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/classes/com/huonilaifu/web/upload/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/classes/spring/upload-beans.xml" afterPath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/classes/spring/upload-beans.xml" />
+      <change beforePath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/lib/huoni-upload-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/huoni-web/target/huoni-web-1.0-SNAPSHOT/WEB-INF/lib/huoni-upload-1.0-SNAPSHOT.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/huoni-parent/target/" />
     <ignored path="$PROJECT_DIR$/huoni-commons/target/" />
@@ -21,13 +39,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload-beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -60,21 +135,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/huoni-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/huoni-web/pom.xml" />
-        <option value="$PROJECT_DIR$/huoni-commons/pom.xml" />
         <option value="$PROJECT_DIR$/huoni-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/huoni-web/src/main/resources/web/web-main.xml" />
         <option value="$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UploadController.java" />
         <option value="$PROJECT_DIR$/huoni-upload/pom.xml" />
         <option value="$PROJECT_DIR$/huoni-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml" />
-        <option value="$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java" />
         <option value="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/UserService.java" />
-        <option value="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/huoni-upload/src/main/resources/mapper/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/huoni-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/huoni-web/pom.xml" />
+        <option value="$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java" />
+        <option value="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/BaseService.java" />
+        <option value="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml" />
+        <option value="$PROJECT_DIR$/huoni-web/src/main/resources/mybatis-config.xml" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -307,6 +387,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,11 +395,144 @@
               <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
               <item name="huoni" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoni" type="462c0819:PsiDirectoryNode" />
+              <item name="huoni-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -339,10 +553,11 @@
       <recent name="com.huonilaifu.upload.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myspace\myPro\huoni" />
-      <recent name="D:\myspace\myPro\huoni\huoni-upload\src\main\resources\mapper" />
-      <recent name="D:\myspace\myPro\huoni\huoni-upload\src\main\java\com\huonilaifu\upload\model" />
       <recent name="D:\myspace\myPro\huoni\huoni-web\src\main\resources" />
+      <recent name="D:\myspace\myPro\huoni\huoni-upload\src\main\resources\mapper" />
+      <recent name="D:\myspace\myPro\huoni\huoni-upload\src\main\java\com\huonilaifu\upload\dao" />
+      <recent name="D:\myspace\myPro\huoni" />
+      <recent name="D:\myspace\myPro\huoni\huoni-upload\src\main\java\com\huonilaifu\upload\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,51 +774,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554098993428</updated>
-      <workItem from="1554098994844" duration="14907000" />
+      <workItem from="1554098994844" duration="15270000" />
+      <workItem from="1554172025331" duration="7919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14907000" />
+    <option name="totallyTimeSpent" value="23189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48904267" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48904267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55940026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35986158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33422747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,11 +829,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -625,27 +857,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,15 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <marker date="1537955586782" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1537955586782" expanded="true" signature="509:730" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="774:785" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="819:825" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="882:893" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="928:934" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="1015:1279" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,65 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <marker date="1537955586782" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1537955586782" expanded="false" signature="160:484" ph="..." />
-            <marker date="1537955586782" expanded="true" signature="1298:1305" ph="{}" />
-            <marker date="1537955586782" expanded="true" signature="1356:1706" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="1745:1756" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="1778:1784" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="1828:1839" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="1873:1879" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="1921:1932" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="1975:1981" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="2015:2026" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2045:2051" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="2093:2104" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2147:2153" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="2187:2198" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2217:2223" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="2275:2286" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2317:2323" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="2362:2373" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2397:2403" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="2481:2552" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="2603:2614" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2650:2656" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="2736:2809" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="2861:2872" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="2909:2915" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="2992:3063" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="3114:3125" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="3161:3167" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="3217:3302" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="3364:3470" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="3521:3532" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="3561:3567" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="3637:3700" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="3748:3759" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="3791:3797" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="3889:3974" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="4034:4093" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="4173:4244" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="4297:4308" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4344:4350" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="4401:4412" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4439:4445" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="4484:4495" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4517:4523" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="4560:4571" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4590:4596" ph=" }" />
-            <marker date="1537955586782" expanded="false" signature="4623:4634" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4652:4658" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="4704:4888" ph="{...}" />
-            <marker date="1537955586782" expanded="false" signature="4954:4965" ph=" { " />
-            <marker date="1537955586782" expanded="false" signature="4981:4987" ph=" }" />
-            <marker date="1537955586782" expanded="true" signature="5068:5815" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="5881:6026" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="6105:6299" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="6376:6497" ph="{...}" />
-            <marker date="1537955586782" expanded="true" signature="6578:7689" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,18 +941,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
           <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/mapper/user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/mapper/user.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -811,35 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="186" column="105" lean-forward="false" selection-start-line="186" selection-start-column="88" selection-end-line="186" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,18 +973,10 @@
         <state relative-caret-position="364">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="523" column="50" lean-forward="true" selection-start-line="523" selection-start-column="50" selection-end-line="523" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,70 +1003,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-          <folding>
-            <marker date="1554113473262" expanded="true" signature="3456:3481" ph="select disti... user_info" />
-            <marker date="1554113473262" expanded="true" signature="3594:3699" ph="select from user_info" />
-            <marker date="1554113473262" expanded="true" signature="3786:3845" ph="delete from user_info... " />
-            <marker date="1554113473262" expanded="true" signature="3955:3976" ph="delete from user_info... " />
-            <marker date="1554113473262" expanded="true" signature="4163:4347" ph="insert into user_info... " />
-            <marker date="1554113473262" expanded="true" signature="5310:5340" ph="select count... user_info" />
-            <marker date="1554113473262" expanded="true" signature="6131:6340" ph="update user_info... " />
-            <marker date="1554113473262" expanded="true" signature="6558:6907" ph="update user_info... " />
-            <marker date="1554113473262" expanded="true" signature="7013:7197" ph="update user_info... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/model/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,28 +1027,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="e#1378#1396#0" expanded="true" />
-            <element signature="e#1439#1454#0" expanded="true" />
-            <element signature="e#1511#1531#0" expanded="true" />
-            <element signature="e#1588#1608#0" expanded="true" />
-            <element signature="e#1697#1720#0" expanded="true" />
-            <element signature="e#1807#1828#0" expanded="true" />
-            <element signature="e#1913#1932#0" expanded="true" />
-            <element signature="e#2017#2036#0" expanded="true" />
-            <element signature="e#2124#2143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <marker date="1537955586769" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1537955586769" expanded="false" signature="162:720" ph="..." />
+            <marker date="1537955586769" expanded="false" signature="1114:1125" ph=" { " />
+            <marker date="1537955586769" expanded="false" signature="1146:1152" ph=" }" />
+            <marker date="1537955586769" expanded="false" signature="1215:1226" ph=" { " />
+            <marker date="1537955586769" expanded="false" signature="1246:1252" ph=" }" />
+            <marker date="1537955586769" expanded="true" signature="1374:1430" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="1509:1568" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="1678:1737" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="1831:1902" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="2042:2748" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="2898:4250" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="4332:4558" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="4621:4957" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="5053:5511" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="5576:6740" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="6825:7427" ph="{...}" />
+            <marker date="1537955586769" expanded="true" signature="7513:8087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <element signature="e#6039#6040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="728" column="0" lean-forward="false" selection-start-line="728" selection-start-column="0" selection-end-line="728" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="296" column="60" lean-forward="false" selection-start-line="296" selection-start-column="38" selection-end-line="296" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="144" column="46" lean-forward="true" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+          <folding>
+            <marker date="1554113473262" expanded="true" signature="3456:3481" ph="select * fro... user_info" />
+            <marker date="1554113473262" expanded="true" signature="3594:3699" ph="select from user_info" />
+            <marker date="1554113473262" expanded="true" signature="3786:3845" ph="delete from user_info... " />
+            <marker date="1554113473262" expanded="true" signature="3955:3976" ph="delete from user_info... " />
+            <marker date="1554113473262" expanded="true" signature="4163:4347" ph="insert into user_info... " />
+            <marker date="1554113473262" expanded="true" signature="5310:5340" ph="select count... user_info" />
+            <marker date="1554113473262" expanded="true" signature="6131:6340" ph="update user_info... " />
+            <marker date="1554113473262" expanded="true" signature="6558:6907" ph="update user_info... " />
+            <marker date="1554113473262" expanded="true" signature="7013:7197" ph="update user_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/spring/upload-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-web/src/main/java/com/huonilaifu/web/upload/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoni-upload/src/main/java/com/huonilaifu/upload/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
           <folding />
         </state>
       </provider>

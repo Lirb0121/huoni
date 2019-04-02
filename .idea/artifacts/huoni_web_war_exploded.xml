@@ -18,6 +18,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.9.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.9.0" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.5.RELEASE" />

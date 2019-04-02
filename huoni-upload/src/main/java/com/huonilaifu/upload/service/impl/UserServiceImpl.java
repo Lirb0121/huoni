@@ -3,6 +3,7 @@ package com.huonilaifu.upload.service.impl;
 import com.huonilaifu.upload.dao.UserInfoMapper;
 import com.huonilaifu.upload.model.UserInfo;
 import com.huonilaifu.upload.service.UserService;
+import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,12 +16,16 @@ import java.util.List;
  */
 
 @Service
-public class UserServiceImpl  implements UserService {
+public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserInfoMapper userInfoMapper;
+@Autowired
+private UserInfoMapper userInfoMapper;
+
+
 
     public List<UserInfo> selectAll() {
-        return userInfoMapper.selectAll();
+        List<UserInfo> userInfos = userInfoMapper.selectAll();
+        return userInfos;
     }
+
 }

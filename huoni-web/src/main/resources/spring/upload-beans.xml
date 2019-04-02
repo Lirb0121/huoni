@@ -36,18 +36,20 @@
         </bean>
     <!--配置sqlSessionFactory-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="dataSource" ref="dataSource"></property>
         <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+        <property name="typeAliasesPackage" value="com.huonilaifu.*.model"/>
     </bean>
     <!--配置mapper接口扫描器mapperScannerConfigurer01-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.huonilaifu.upload.dao"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <property name="basePackage" value="com.huonilaifu.*.dao"></property>
     </bean>
-    <!--配置SqlSessionTemplate-->
-    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
-        <constructor-arg index="0" ref="sqlSessionFactory"/>
-    </bean>
+    <!--&lt;!&ndash;配置SqlSessionTemplate&ndash;&gt;-->
+    <!--<bean id="sqlSession" name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">-->
+        <!--<constructor-arg index="0" ref="sqlSessionFactory"/>-->
+    <!--</bean>-->
     <!--配置事务管理器-->
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
