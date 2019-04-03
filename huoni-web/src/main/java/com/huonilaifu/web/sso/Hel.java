@@ -1,4 +1,4 @@
-package com.huonilaifu.web;
+package com.huonilaifu.web.sso;
 
 /**
  * @author: lirb
