@@ -11,12 +11,21 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="/upload/upload" enctype="multipart/form-data" method="post">
+    <form action="/execel/uploadExecel" enctype="multipart/form-data" method="post">
         <table>
             <tr>
                 <td>请选择文件：</td>
                 <td><input type="file" name="file"></td>
             </tr>
+            <tr>
+                <td>文件类型：</td>
+                <td>
+                    <select name="type">
+                    <option value="1">企业成员</option>
+                    </select><br/>
+                </td>
+            </tr>
+
             <tr>
                 <td>开始上传</td>
                 <td><input type="submit" value="上传"></td>
