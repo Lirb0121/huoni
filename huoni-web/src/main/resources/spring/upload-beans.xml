@@ -36,23 +36,59 @@
         <property name="maxWait" value="${server.maxWait}"></property>
 
     </bean>
+    <!--配置数据源datasource-->
+    <bean id="ssoDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${server.driver}" />
+        <property name="url" value="${sso.server.url}"></property>
+        <property name="username" value="${sso.server.username}"></property>
+        <property name="password" value="${sso.server.password}"></property>
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="${server.initialSize}"></property>
+        <!-- 连接池最大数量 -->
+        <property name="maxActive" value="${server.maxActive}"></property>
+        <!-- 连接池最大空闲 -->
+        <property name="maxIdle" value="${server.maxIdle}"></property>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="${server.minIdle}"></property>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="${server.maxWait}"></property>
+
+    </bean>
     <!--配置sqlSessionFactory-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+    </bean>
+    <!--配置sqlSessionFactory-->
+    <bean id="ssoSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="ssoDataSource"></property>
+        <property name="mapperLocations" value="classpath:ssoMapper/*.xml"></property>
     </bean>
     <!--配置mapper接口扫描器mapperScannerConfigurer01-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
         <property name="basePackage" value="com.huonilaifu.upload.dao"></property>
     </bean>
+    <!--配置mapper接口扫描器mapperScannerConfigurer01-->
+    <bean id="ssoMapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="ssoSqlSessionFactory"></property>
+        <property name="basePackage" value="com.huonilaifu.sso.dao"></property>
+    </bean>
     <!--配置SqlSessionTemplate-->
     <bean id="sqlSession" name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
     <constructor-arg index="0" ref="sqlSessionFactory"/>
     </bean>
+    <!--配置SqlSessionTemplate-->
+    <bean id="ssoSqlSession" name="ssoSqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+    <constructor-arg index="0" ref="ssoSqlSessionFactory"/>
+    </bean>
     <!--配置事务管理器-->
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置事务管理器-->
+    <bean id="ssoTxManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="ssoDataSource"></property>
     </bean>
     <!--配置切面-->
     <tx:advice id="txAdvice" transaction-manager="txManager" >
@@ -63,9 +99,26 @@
             <tx:method name="*"/>
         </tx:attributes>
     </tx:advice>
+    <!--配置切面-->
+    <tx:advice id="ssoTxAdvice" transaction-manager="txManager" >
+        <tx:attributes>
+            <tx:method name="select*" read-only="true"/>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
     <!--配置切入点-->
     <aop:config>
         <aop:pointcut id="appService"  expression="execution(* com.huonilaifu.upload.service..*Service*.*(..))"  ></aop:pointcut>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="appService"></aop:advisor>
     </aop:config>
+    <!--配置切入点-->
+    <aop:config>
+        <aop:pointcut id="ssoAppService"  expression="execution(* com.huonilaifu.sso.service..*Service*.*(..))"  ></aop:pointcut>
+        <aop:advisor advice-ref="ssoTxAdvice" pointcut-ref="ssoAppService"></aop:advisor>
+    </aop:config>
+
+
 </beans>

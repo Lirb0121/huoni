@@ -12,6 +12,7 @@
         <module>../huoni-commons</module>
         <module>../huoni-upload</module>
         <module>../huoni-web</module>
+        <module>../huoni-sso</module>
     </modules>
 
     <properties>

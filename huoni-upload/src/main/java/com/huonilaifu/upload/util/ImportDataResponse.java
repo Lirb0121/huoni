@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 数据导入完成后的返回vo
- * @author wangxiaodan
+ * @author lirb
  *
  */
 public class ImportDataResponse {
