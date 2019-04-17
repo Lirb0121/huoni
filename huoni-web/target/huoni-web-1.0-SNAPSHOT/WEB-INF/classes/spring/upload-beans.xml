@@ -119,4 +119,6 @@
         <aop:pointcut id="ssoAppService"  expression="execution(* com.huonilaifu.sso.service..*Service*.*(..))"  ></aop:pointcut>
         <aop:advisor advice-ref="ssoTxAdvice" pointcut-ref="ssoAppService"></aop:advisor>
     </aop:config>
+
+
 </beans>
